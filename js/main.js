@@ -259,7 +259,7 @@ bigImg.onclick = function() {
             totalAmount.appendChild(totalAmountText);
             productDiv.appendChild(priceCountSpan);
             productDiv.appendChild(totalAmount);
-            deleteIcon.src = '../images/icon-delete.svg'
+            deleteIcon.src = './images/icon-delete.svg'
             infoDiv.appendChild(productDiv);
             infoDiv.appendChild(deleteIcon);
             checkOutBtn.appendChild(checkoutText);
@@ -282,7 +282,6 @@ bigImg.onclick = function() {
                     theemptycart.appendChild(document.createTextNode('Your Cart is Empty'));
                     theemptycart.className = 'empty';
                     document.querySelector('.Right .cart-menu').appendChild(theemptycart);
-                    console.log(cartArray)
                 }
             });
 
