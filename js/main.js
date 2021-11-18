@@ -79,8 +79,8 @@ bigImg.onclick = function() {
     let prevIcon = document.createElement('img');
     nextIcon.className = 'next';
     prevIcon.className = 'prev';
-    nextIcon.src = '../images/icon-next.svg';
-    prevIcon.src = '../images/icon-previous.svg';
+    nextIcon.src = './images/icon-next.svg';
+    prevIcon.src = './images/icon-previous.svg';
     let iconNextSpan = document.createElement('span');
     let iconPrevSpan = document.createElement('span');
     iconNextSpan.className = 'icon-next-span';
@@ -93,7 +93,7 @@ bigImg.onclick = function() {
 
     let closeIcon = document.createElement('img');
     closeIcon.className = 'close';
-    closeIcon.src = '../images/icon-close.svg';
+    closeIcon.src = './images/icon-close.svg';
     theSlider.appendChild(closeIcon);
 
 
