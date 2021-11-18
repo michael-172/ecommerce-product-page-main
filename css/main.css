@@ -200,7 +200,7 @@ body{
     left: 11px;
     cursor: pointer;
     transition: opacity .2s ease-in-out;
-    top: -5px;
+    top: 11px;
 }
 
 @media (max-width:576px){
