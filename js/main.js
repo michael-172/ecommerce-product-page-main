@@ -128,7 +128,7 @@ bigImg.onclick = function() {
             return false;
         }else{
             currentSlide++;
-            firstImg.src = `../images/image-product-${currentSlide}.jpg`;
+            firstImg.src = `./images/image-product-${currentSlide}.jpg`;
             handleActiveOnOverlayedSlider();
         }
     }
@@ -139,7 +139,7 @@ bigImg.onclick = function() {
             return false;
         }else{
             currentSlide--;
-            firstImg.src = `../images/image-product-${currentSlide}.jpg`;
+            firstImg.src = `./images/image-product-${currentSlide}.jpg`;
             handleActiveOnOverlayedSlider();
         }
     }
